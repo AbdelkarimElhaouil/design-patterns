@@ -18,6 +18,8 @@ bin/
 # ignore README.md file
 README.md
 Main.java
+factoryPatternInfo.txt
+
 
 ### NetBeans ###
 /nbproject/private/
