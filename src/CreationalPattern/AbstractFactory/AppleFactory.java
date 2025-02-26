@@ -1,6 +1,7 @@
 package CreationalPattern.AbstractFactory;
 
 public class AppleFactory extends AbstractFactory{
+
     @Override
     public Device getDevice(String device) {
         if(device.equalsIgnoreCase("iphone")){

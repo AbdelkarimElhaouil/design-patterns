@@ -1,6 +1,9 @@
 package CreationalPattern.AbstractFactory;
 
 public class FactoryProducer {
+
+    private FactoryProducer(){}
+
     public static AbstractFactory getFactory(String factory){
         if(factory.equalsIgnoreCase("apple"))
             return new AppleFactory();
