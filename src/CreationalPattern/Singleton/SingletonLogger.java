@@ -26,5 +26,4 @@ public class SingletonLogger {
         System.out.println("Debug log");
     }
 
-
 }
